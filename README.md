@@ -1,4 +1,7 @@
-### CHECK THE OUTPUT IN .IPYNB notebooks ### Open Deep Researcher (ODR) System
+### CHECK THE OUTPUT IN .IPYNB notebooks
+
+
+ ### Open Deep Researcher (ODR) System
 A comprehensive, vendor-agnostic research automation system that leverages AI to conduct end-to-end research workflows, from topic clarification to professional report generation.
 
 ### Overview
@@ -154,9 +157,9 @@ OLLAMA_CODE_MODEL=codellama
 OLLAMA_FAST_MODEL=mistral
 
 # Optional: Cloud Provider API Keys
-# OPENAI_API_KEY=your_openai_key_here
-# ANTHROPIC_API_KEY=your_anthropic_key_here
-# GOOGLE_API_KEY=your_google_key_here
+OPENAI_API_KEY=your_openai_key_here
+ANTHROPIC_API_KEY=your_anthropic_key_here
+GOOGLE_API_KEY=your_google_key_here
 
 # Research Configuration
 MAX_SEARCH_RESULTS=10
