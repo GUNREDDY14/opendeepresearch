@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+odr-env/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/cache/
+*.db
+*.sqlite
+
+# Outputs
+outputs/
+notebooks/generated/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

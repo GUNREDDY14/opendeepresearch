@@ -1,0 +1,17 @@
+jupyter
+notebook
+requests
+beautifulsoup4
+python-dotenv
+openai
+anthropic
+google-generativeai
+ollama
+langchain
+langchain-community
+langchain-ollama
+pymongo
+pandas
+numpy
+matplotlib
+seaborn

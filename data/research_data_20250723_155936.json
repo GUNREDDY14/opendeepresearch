@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "execution_started": "2025-07-23T15:58:25.232187",
+    "plan_title": "Cross Self-Attention Fusion in Transformers: A Comprehensive Analysis",
+    "total_sections": 2,
+    "execution_log": [
+      {
+        "section": "Background and Fundamentals",
+        "sources_found": 10,
+        "strategy_used": {
+          "check_internal_first": true,
+          "internal_priority": [
+            "filesystem",
+            "cache",
+            "database"
+          ],
+          "web_searches_needed": [
+            "academic",
+            "technical"
+          ],
+          "parallel_execution": true,
+          "minimum_sources": 5,
+          "search_terms": [
+            "main topic",
+            "technical details",
+            "applications"
+          ],
+          "quality_threshold": "medium"
+        },
+        "execution_time": "2025-07-23T15:59:23.734878"
+      },
+      {
+        "section": "Technical Analysis and Applications",
+        "sources_found": 0,
+        "strategy_used": {
+          "check_internal_first": true,
+          "internal_priority": [
+            "filesystem",
+            "cache",
+            "database"
+          ],
+          "web_searches_needed": [
+            "academic",
+            "technical"
+          ],
+          "parallel_execution": true,
+          "minimum_sources": 5,
+          "search_terms": [
+            "main topic",
+            "technical details",
+            "applications"
+          ],
+          "quality_threshold": "medium"
+        },
+        "execution_time": "2025-07-23T15:59:36.373887"
+      }
+    ],
+    "execution_completed": "2025-07-23T15:59:36.373949"
+  },
+  "sections_data": {
+    "Background and Fundamentals": {
+      "section_info": {
+        "title": "Background and Fundamentals",
+        "objective": "Establish foundational understanding of cross self-attention fusion",
+        "subsections": [
+          {
+            "title": "Core Concepts",
+            "data_sources_needed": [
+              "academic",
+              "technical"
+            ]
+          },
+          {
+            "title": "Historical Development",
+            "data_sources_needed": [
+              "academic",
+              "web"
+            ]
+          }
+        ],
+        "data_requirements": [
+          "Academic papers",
+          "Technical documentation"
+        ]
+      },
+      "strategy_used": {
+        "check_internal_first": true,
+        "internal_priority": [
+          "filesystem",
+          "cache",
+          "database"
+        ],
+        "web_searches_needed": [
+          "academic",
+          "technical"
+        ],
+        "parallel_execution": true,
+        "minimum_sources": 5,
+        "search_terms": [
+          "main topic",
+          "technical details",
+          "applications"
+        ],
+        "quality_threshold": "medium"
+      },
+      "sources": [
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/",
+          "snippet": "Google Scholar provides a simple way to broadly search for scholarly literature. Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643001",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "PDF Narrowing a Topic and Developing a Research Question",
+          "url": "https://libraries.indiana.edu/sites/default/files/Develop_a_Research_Question.pdf",
+          "snippet": "Narrowing a Topic and Developing a Research Question Narrowing a Topic You may not know right away what your research question is. Gather information on the broader topic to explore new possibilities and to help narrow your topic. \u2022 Choose an interesting topic. If you're interested in your topic, chances are that others will be, too.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643085",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "Search Help - Google Scholar",
+          "url": "https://scholar.google.com/intl/en/scholar/help.html",
+          "snippet": "Do a search for the topic of interest, e.g., \"M Theory\"; click the envelope icon in the sidebar of the search results page; enter your email address, and click \"Create alert\".",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643138",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "PDF Choosing and Narrowing a Topic - Lewis University",
+          "url": "https://www.lewisu.edu/writingcenter/pdf/choosingandnarrowingatopic.pdf",
+          "snippet": "The most important part of any writing assignment is choosing and then narrowing a topic because it guides the rest of your work. If necessary, you may also develop it into a research question. With this resource and the help of a few of our other resources linked below, you should be able to easily choose, narrow, and develop a topic. The topic is the main idea that the entire paper is about ...",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643192",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "T H E R U L E O F L A W D E M O C R A C Y , A N D H U M A N ... - arXiv.org",
+          "url": "https://arxiv.org/pdf/2104.04147",
+          "snippet": "Main Elements of a Risk-Based and Benefits-Aware Approach: Consider use context and the potential impact of the AI technology Consider domain of application and affected stakeholders Assess and review risks regularly and systematically, tailoring any mitigating measures to these risks",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643240",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "How to write technical documentation \u2014 with examples - GitBook",
+          "url": "https://www.gitbook.com/blog/how-to-write-technical-documentation-with-examples",
+          "snippet": "Writing technical documentation is an essential part of any software development workflow. It doesn't just help developers and other stakeholders understand what you built \u2014 but also why and how you built it. Here, we'll explore what technical documentation is and why it's important. We'll also explain how to write great technical documentation \u2014 with examples and templates to help ...",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662857",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "Free Word Tutorial at GCFGlobal",
+          "url": "https://edu.gcfglobal.org/en/word/",
+          "snippet": "In this free Word tutorial, learn how to format text, save and share documents, modify line and paragraph spacing, use tables and columns, and do more with your documents.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662909",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "Technical documentation | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/docs/",
+          "snippet": "Read in-depth developer documentation about Microsoft tools such as .NET, Azure, C++, and Microsoft Cloud. Explore by product or search our documentation.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662953",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "Tutorials on Technical and Non Technical Subjects",
+          "url": "https://www.tutorialspoint.com/",
+          "snippet": "Learn the latest technologies and programming languages including CodeWhisperer, Google Assistant, Dall-E, Business Intelligence, Claude AI, SwiftUI, Smart Grid ...",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662995",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "W3Schools Online Web Tutorials",
+          "url": "https://www.w3schools.com/",
+          "snippet": "W3Schools offers free online tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and JQuery.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.663038",
+          "relevance_score": 8
+        }
+      ],
+      "internal_results": [],
+      "external_results": [
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/",
+          "snippet": "Google Scholar provides a simple way to broadly search for scholarly literature. Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643001",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "PDF Narrowing a Topic and Developing a Research Question",
+          "url": "https://libraries.indiana.edu/sites/default/files/Develop_a_Research_Question.pdf",
+          "snippet": "Narrowing a Topic and Developing a Research Question Narrowing a Topic You may not know right away what your research question is. Gather information on the broader topic to explore new possibilities and to help narrow your topic. \u2022 Choose an interesting topic. If you're interested in your topic, chances are that others will be, too.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643085",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "Search Help - Google Scholar",
+          "url": "https://scholar.google.com/intl/en/scholar/help.html",
+          "snippet": "Do a search for the topic of interest, e.g., \"M Theory\"; click the envelope icon in the sidebar of the search results page; enter your email address, and click \"Create alert\".",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643138",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "PDF Choosing and Narrowing a Topic - Lewis University",
+          "url": "https://www.lewisu.edu/writingcenter/pdf/choosingandnarrowingatopic.pdf",
+          "snippet": "The most important part of any writing assignment is choosing and then narrowing a topic because it guides the rest of your work. If necessary, you may also develop it into a research question. With this resource and the help of a few of our other resources linked below, you should be able to easily choose, narrow, and develop a topic. The topic is the main idea that the entire paper is about ...",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643192",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "academic",
+          "query": "main topic site:arxiv.org OR site:scholar.google.com OR filetype:pdf",
+          "title": "T H E R U L E O F L A W D E M O C R A C Y , A N D H U M A N ... - arXiv.org",
+          "url": "https://arxiv.org/pdf/2104.04147",
+          "snippet": "Main Elements of a Risk-Based and Benefits-Aware Approach: Consider use context and the potential impact of the AI technology Consider domain of application and affected stakeholders Assess and review risks regularly and systematically, tailoring any mitigating measures to these risks",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.643240",
+          "relevance_score": 10
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "How to write technical documentation \u2014 with examples - GitBook",
+          "url": "https://www.gitbook.com/blog/how-to-write-technical-documentation-with-examples",
+          "snippet": "Writing technical documentation is an essential part of any software development workflow. It doesn't just help developers and other stakeholders understand what you built \u2014 but also why and how you built it. Here, we'll explore what technical documentation is and why it's important. We'll also explain how to write great technical documentation \u2014 with examples and templates to help ...",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662857",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "Free Word Tutorial at GCFGlobal",
+          "url": "https://edu.gcfglobal.org/en/word/",
+          "snippet": "In this free Word tutorial, learn how to format text, save and share documents, modify line and paragraph spacing, use tables and columns, and do more with your documents.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662909",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "Technical documentation | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/docs/",
+          "snippet": "Read in-depth developer documentation about Microsoft tools such as .NET, Azure, C++, and Microsoft Cloud. Explore by product or search our documentation.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662953",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "Tutorials on Technical and Non Technical Subjects",
+          "url": "https://www.tutorialspoint.com/",
+          "snippet": "Learn the latest technologies and programming languages including CodeWhisperer, Google Assistant, Dall-E, Business Intelligence, Claude AI, SwiftUI, Smart Grid ...",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.662995",
+          "relevance_score": 8
+        },
+        {
+          "source": "web_search",
+          "search_type": "technical",
+          "query": "main topic documentation OR tutorial OR guide",
+          "title": "W3Schools Online Web Tutorials",
+          "url": "https://www.w3schools.com/",
+          "snippet": "W3Schools offers free online tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and JQuery.",
+          "relevance": "medium",
+          "found_date": "2025-07-23T15:58:38.663038",
+          "relevance_score": 8
+        }
+      ],
+      "aggregated_content": [
+        {
+          "source_title": "Google Scholar",
+          "key_insights": "Google Scholar provides a simple way to broadly search for scholarly literature. Search across a wide variety of disciplines and sources: articles, theses, books, abstracts and court opinions.",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "PDF Narrowing a Topic and Developing a Research Question",
+          "key_insights": "Narrowing a Topic and Developing a Research Question Narrowing a Topic You may not know right away what your research question is. Gather information on the broader topic to explore new possibilities ",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "Search Help - Google Scholar",
+          "key_insights": "Do a search for the topic of interest, e.g., \"M Theory\"; click the envelope icon in the sidebar of the search results page; enter your email address, and click \"Create alert\".",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "PDF Choosing and Narrowing a Topic - Lewis University",
+          "key_insights": "The most important part of any writing assignment is choosing and then narrowing a topic because it guides the rest of your work. If necessary, you may also develop it into a research question. With t",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "T H E R U L E O F L A W D E M O C R A C Y , A N D H U M A N ... - arXiv.org",
+          "key_insights": "Main Elements of a Risk-Based and Benefits-Aware Approach: Consider use context and the potential impact of the AI technology Consider domain of application and affected stakeholders Assess and review",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "How to write technical documentation \u2014 with examples - GitBook",
+          "key_insights": "Writing technical documentation is an essential part of any software development workflow. It doesn't just help developers and other stakeholders understand what you built \u2014 but also why and how you b",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "Free Word Tutorial at GCFGlobal",
+          "key_insights": "In this free Word tutorial, learn how to format text, save and share documents, modify line and paragraph spacing, use tables and columns, and do more with your documents.",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "Technical documentation | Microsoft Learn",
+          "key_insights": "Read in-depth developer documentation about Microsoft tools such as .NET, Azure, C++, and Microsoft Cloud. Explore by product or search our documentation.",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "Tutorials on Technical and Non Technical Subjects",
+          "key_insights": "Learn the latest technologies and programming languages including CodeWhisperer, Google Assistant, Dall-E, Business Intelligence, Claude AI, SwiftUI, Smart Grid ...",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        },
+        {
+          "source_title": "W3Schools Online Web Tutorials",
+          "key_insights": "W3Schools offers free online tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and JQuery.",
+          "facts": [
+            "Raw content available"
+          ],
+          "relevance": "medium",
+          "quality": "medium"
+        }
+      ]
+    },
+    "Technical Analysis and Applications": {
+      "section_info": {
+        "title": "Technical Analysis and Applications",
+        "objective": "Deep dive into technical mechanisms and real-world usage",
+        "subsections": [
+          {
+            "title": "Architecture Details",
+            "data_sources_needed": [
+              "technical",
+              "academic"
+            ]
+          },
+          {
+            "title": "NLP Applications",
+            "data_sources_needed": [
+              "industry",
+              "academic"
+            ]
+          }
+        ],
+        "data_requirements": [
+          "Technical papers",
+          "Implementation guides",
+          "Case studies"
+        ]
+      },
+      "strategy_used": {
+        "check_internal_first": true,
+        "internal_priority": [
+          "filesystem",
+          "cache",
+          "database"
+        ],
+        "web_searches_needed": [
+          "academic",
+          "technical"
+        ],
+        "parallel_execution": true,
+        "minimum_sources": 5,
+        "search_terms": [
+          "main topic",
+          "technical details",
+          "applications"
+        ],
+        "quality_threshold": "medium"
+      },
+      "sources": [],
+      "internal_results": [],
+      "external_results": [],
+      "aggregated_content": []
+    }
+  },
+  "aggregated_sources": {},
+  "quality_metrics": {
+    "total_sources_found": 10,
+    "internal_sources": 0,
+    "external_sources": 10,
+    "sections_completed": 2,
+    "average_sources_per_section": 5.0,
+    "internal_vs_external_ratio": 0.0,
+    "execution_summary": "Found 10 total sources across 2 sections"
+  }
+}
